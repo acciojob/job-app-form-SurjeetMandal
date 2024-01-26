@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="post">
 		<label for="name">Name</label>
 		<input type="text" id="name" required>
 		<br>
@@ -16,9 +16,9 @@
 		<input type="email" id="email" required>
 		<br>
 		<label for="m_gender">Male</label>
-		<input type="radio" id="m_gender" name="gender">
+		<input type="radio" id="m_gender" name="gender" required>
 		<label for="m_gender">Female</label>
-		<input type="radio" id="f_gender" name="gender">
+		<input type="radio" id="f_gender" name="gender" required>
 		<br>
 		<select>
 			<option>Apple</option>
@@ -36,7 +36,7 @@
 		<input type="password" id="password" required>
 		<br>
 		<label for="portfolio">Portfolio URL</label>
-		<input type="url" id="portfolio" required>
+		<input type="url" id="portfolio">
 		<br>
 		<button type="submit">Submit</button>
 	</form>
